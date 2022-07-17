@@ -4,6 +4,7 @@ body {
   line-height: 1;
 }
 
+
 textarea {
   background: transparent;
   border: none;
@@ -19,6 +20,11 @@ textarea {
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+}
+
+.form-control {
+padding: 40px;
+
 }
 
 .description {
@@ -58,7 +64,8 @@ textarea {
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  width: 60px;
+  border: 1px solid transparent;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
