@@ -26,7 +26,7 @@ $.each(timeBlock, function (i, hour) {
     }
   });
 
-//   saving input to local storage after the save butt
+//   saving input to local storage after the save button.
 
   $(".saveBtn").on("click", function (event) {
     var calendarItem =
